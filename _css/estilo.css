@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, serif;
+    background-color: white;	
+    width: auto;
+    height: 720px;
+    border-radius: 20px;	
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.1);
+    margin: 1% 1% 5% 10%;
+
+}
+
+/* inicio section */
+section#conteudo {  
+    width: 40%;
+    height: 90%;  
+    display: block;
+    margin: 0px;
+    float: left;
+}
+
+/* Div seguranca */
+
+div#seguranca {
+    margin-top: 50px;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.8);
+    margin-left: 22%;
+}
+
+img#seg{
+    float: left;
+}
+
+div#seguranca p{
+    display: block;
+    padding-top: 5px;
+}
+
+/*Fim div seguranca */
+
+/*div login */
+
+div#login{
+    margin-top: 80px;
+    margin-left: 22%;
+
+}
+
+img#logo{
+    width: 250px;
+}
+
+div#login h1{
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+div#login h2{
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+div#login input.email{
+    font-size: 18px;
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+    margin: 0px;
+    border-color: rgba(38, 78, 38, 0.2);
+    width: 400px;
+    height: 40px;
+}
+
+div#login ::placeholder{
+    color: rgba(128, 128, 128, 0.5);
+}
+
+div#login input#userEmail{
+    margin-bottom: 20px;
+}
+
+/*fim divi login */
+
+/* div recSenha */
+div#recSenha {
+    margin-top: 50px;     
+    margin-left: 22%;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+img#cadeado{
+    float: left;
+    margin-top: 3px;
+}
+
+div#recSenha p{
+    margin-left: 20px;
+    display: block;
+    font-size: 12px;
+}
+
+
+div#recSenha span#cliqueAqui{
+    color: rgba(0, 128, 0, 0.75);
+    text-decoration: bolder;
+    font-size: 11pt;
+}
+
+div#recSenha a{
+    text-decoration: none;
+}
+
+div#recSenha input#botaoEntrar{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.75);
+    border: none;
+    float: right;
+    margin-right: -20px;
+    margin-top: -50px;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: bolder;
+}
+/*fim div recSenha */
+
+/* Fim section */
+
+/*inicio aside */
+
+aside#lateral {
+    display: block;
+    width: 55%;
+    height: 90%; 
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    }
+
+aside#lateral h1{
+    color: rgba(0, 128, 0, 0.75);
+    font-size: 40px;
+    margin-left: 60%;
+}
+
+aside#lateral h2{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+div#img input#botaoBlog{
+    color: white;
+    background-color: rgba(0, 128, 0, 0.75);
+    border: none;
+    margin-left: 60%;
+    margin-top: 70px;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: bolder;
+}
+
+aside#lateral img#imagemBlog{
+    margin-top: -530px;
+    margin-right: 40%;
+
+}
+
+/*fim aside */
+
+/* footer rodape */
+footer#rodape {
+    clear: both; 
+    position: relative;
+    position: bottom;
+    display: block;
+}
+
+footer#rodape p {
+    text-align: left;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.5);    
+    margin-left: 8%;
+}
+
+
+
+/* fim footer rodape */
